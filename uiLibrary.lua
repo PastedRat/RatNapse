@@ -1,4 +1,4 @@
-local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/mainstreamed/clones/refs/heads/main/synapse/framework.lua", true))();
+local framework = loadstring(game:HttpGet("", true))();
 --
 do -- checks
     do -- folders
@@ -3242,4 +3242,4 @@ rconsoleprint([[
       | $$      | $$  | $$| $$  | $$| $$  | $$| $$      | $$  | $$         
       | $$$$$$$$|  $$$$$$/| $$  | $$| $$$$$$$/| $$$$$$$$| $$$$$$$/         
       |________/ \______/ |__/  |__/|_______/ |________/|_______/          
-]])
+\n]])
