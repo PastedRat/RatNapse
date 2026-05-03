@@ -1,4 +1,4 @@
-local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/PastedRat/RatNapse/refs/heads/main/framework.lua", true))();
+local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/mainstreamed/clones/refs/heads/main/synapse/framework.lua", true))();
 --
 do -- checks
     do -- folders
