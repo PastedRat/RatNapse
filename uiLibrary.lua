@@ -1,4 +1,4 @@
-local framework = loadstring(game:HttpGet("https://github.com/PastedRat/RatNapse/raw/refs/heads/main/framework.lua", true))();
+local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/PastedRat/RatNapse/refs/heads/main/framework.lua", true))();
 --
 do -- checks
     do -- folders
@@ -919,7 +919,7 @@ do -- menu
                 end
             end
         end)
-
+        
         local colorpickertypes = {}
 
         function colorpickertypes:Set(color, newalpha)
@@ -1018,7 +1018,7 @@ do -- menu
                 --ImageColor3 = Color3.fromRGB(255, 255, 255);
                 BorderSizePixel = 0;
                 ZIndex = 9999;
-                Image = "rbxassetid://5184876485";
+                Image = "http://www.roblox.com/asset/?id=5184876485";
             });
 
             UI:AttachTheme(imagetoptab, { ImageColor3 = "accent" })
